@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "question": "How often do you feel overwhelmed?",
+      "options": ["Rarely", "Sometimes", "Often", "Frequently", "Constantly"]
+    },
+    {
+      "question": "Do you find it difficult to concentrate?",
+      "options": ["Not at all", "Occasionally", "Sometimes", "Often", "Always"]
+    },
+    {
+      "question": "How often do you experience feelings of sadness?",
+      "options": ["Rarely", "Occasionally", "Sometimes", "Frequently", "Daily"]
+    },
+    {
+      "question": "Do you often experience racing thoughts?",
+      "options": ["Rarely", "Occasionally", "Sometimes", "Frequently", "Almost always"]
+    },
+    {
+      "question": "How frequently do you feel anxious?",
+      "options": ["Rarely", "Occasionally", "Sometimes", "Frequently", "Constantly"]
+    },
+    {
+      "question": "Are you able to get restful sleep?",
+      "options": ["Always", "Most of the time", "Sometimes", "Rarely", "Never"]
+    },
+    {
+      "question": "Do you often feel fatigued?",
+      "options": ["Never", "Rarely", "Sometimes", "Often", "Almost always"]
+    },
+    {
+      "question": "How often do you feel irritable or angry?",
+      "options": ["Rarely", "Occasionally", "Sometimes", "Frequently", "Constantly"]
+    },
+    {
+      "question": "Do you experience changes in appetite?",
+      "options": ["No changes", "Occasionally", "Sometimes", "Frequently", "Constantly"]
+    },
+    {
+      "question": "How often do you engage in activities you enjoy?",
+      "options": ["Daily", "Several times a week", "Weekly", "Occasionally", "Rarely"]
+    },
+    {
+      "question": "Do you feel disconnected from others?",
+      "options": ["Never", "Rarely", "Sometimes", "Often", "Always"]
+    },
+    {
+      "question": "How often do you feel hopeless about the future?",
+      "options": ["Rarely", "Occasionally", "Sometimes", "Frequently", "Constantly"]
+    },
+    {
+      "question": "Are you satisfied with your work-life balance?",
+      "options": ["Very satisfied", "Satisfied", "Neutral", "Dissatisfied", "Very dissatisfied"]
+    },
+    {
+      "question": "How often do you experience physical symptoms related to stress (e.g., headaches, muscle tension)?",
+      "options": ["Rarely", "Occasionally", "Sometimes", "Frequently", "Constantly"]
+    },
+    {
+      "question": "Do you have difficulty making decisions?",
+      "options": ["Rarely", "Occasionally", "Sometimes", "Frequently", "Almost always"]
+    }
+  ]
+}
