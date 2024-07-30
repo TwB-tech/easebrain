@@ -14,8 +14,11 @@ const BackgroundElements = () => {
 
   return (
     <div className="fixed inset-0 z-0">
-      {/* Gradient background with mixed colors and 70% opacity */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary via-white to-secondary opacity-70"></div>
+      <div className="absolute inset-0 bg-[#5d5c5e] opacity-10"></div>
+      {/* Gradient background with mixed colors and opacity */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary via-slate-300 to-secondary opacity-50"></div>
+      {/* Dark overlay to reduce brightness */}
+      {/*<div className="absolute inset-0 bg-black opacity-10"></div>*/}
       {/* Background logos */}
       <div className="absolute inset-0 flex justify-between items-center opacity-10">
         {logoPositions.map((position, index) => (
