@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Container from './Container';
+import Container from '../Container';
 
 const dummyChats = {
   default: ['Hello! This is the default group.', 'Feel free to chat here.'],

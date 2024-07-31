@@ -1,9 +1,9 @@
 import React, { useState, useCallback } from 'react';
 import Layout from '../components/Layout';
-import GroupList from '../components/GroupList';
-import ChatHeader from '../components/ChatHeader';
-import ChatMessages from '../components/ChatMessages';
-import MessageInput from '../components/MessageInput';
+import GroupList from '../components/ForumPage/GroupList';
+import ChatHeader from '../components/ForumPage/ChatHeader';
+import ChatMessages from '../components/ForumPage/ChatMessages';
+import MessageInput from '../components/ForumPage/MessageInput';
 import DeleteModal from '../components/DeleteModal';
 import Modal from 'react-modal';
 

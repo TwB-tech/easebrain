@@ -17,8 +17,6 @@ const BackgroundElements = () => {
       <div className="absolute inset-0 bg-[#5d5c5e] opacity-10"></div>
       {/* Gradient background with mixed colors and opacity */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary via-slate-300 to-secondary opacity-50"></div>
-      {/* Dark overlay to reduce brightness */}
-      {/*<div className="absolute inset-0 bg-black opacity-10"></div>*/}
       {/* Background logos */}
       <div className="absolute inset-0 flex justify-between items-center opacity-10">
         {logoPositions.map((position, index) => (
@@ -26,7 +24,7 @@ const BackgroundElements = () => {
             key={index}
             src={easebrainLogo} // Use the imported logo image
             alt="Logo"
-            className="m-6 w-24 h-24 sm:w-32 sm:h-32" // Make images responsive
+            className="m-6 w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40" // Responsive sizes
             style={{
               position: 'absolute',
               ...position

@@ -7,7 +7,7 @@ import questionsData from '../assets/questions.json';
 import { useQuery } from 'react-query';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
-import DailyQuote from '../components/DailyQuote';
+import DailyQuote from '../components/HomePage/DailyQuote';
 
 const user = {
   name: "Alice Johnson",

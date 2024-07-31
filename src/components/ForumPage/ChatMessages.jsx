@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import { FaComment, FaShare, FaTrash, FaThumbsUp, FaChevronDown, FaChevronUp } from 'react-icons/fa';
 import CommentModal from './CommentModal';
-import DeleteModal from './DeleteModal';
+import DeleteModal from '../DeleteModal';
 import ShareModal from './ShareModal';
 
 const ChatMessages = ({ chats, onShare, onDelete }) => {

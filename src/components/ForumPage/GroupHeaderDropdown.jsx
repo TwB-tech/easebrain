@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import { FaEllipsisV } from 'react-icons/fa';
-import DeleteModal from './DeleteModal';
+import DeleteModal from '../DeleteModal';
 
 const GroupHeaderDropdown = ({ groupId, onEditGroup, onAddMembers, onDeleteGroup }) => {
   const [isOpen, setIsOpen] = useState(false);

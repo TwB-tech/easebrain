@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaSearch, FaPlus, FaEdit } from 'react-icons/fa'; // Importing icons for search, add, and edit functionalities
-import Container from './Container'; // Importing a custom Container component
+import Container from '../Container'; // Importing a custom Container component
 
 const GroupList = ({
   groups, // Array of group objects
