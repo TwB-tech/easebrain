@@ -7,14 +7,14 @@ const Hero = () => {
   // inline styles for glowing text with animation
   const glowTextStyle = {
     textShadow: `
-      0 0 1px rgba(220, 185, 62, 0.7), /* Glow effect color 1 with reduced opacity */
-      0 0 2px rgba(220, 185, 62, 0.7), /* Glow effect color 2 with reduced opacity */
-      0 0 3px rgba(220, 185, 62, 0.5), /* Glow effect color 3 with reduced opacity */
-      0 0 4px rgba(143, 198, 63, 0.5), /* Glow effect color 4 with reduced opacity */
-      0 0 6px rgba(143, 198, 63, 0.3), /* Glow effect color 5 with reduced opacity */
-      0 0 8px rgba(143, 198, 63, 0.2)  /* Glow effect color 6 with reduced opacity */
+      0 0 1px rgba(220, 185, 62, 0.5), /* Glow effect color 1 with reduced opacity */
+      0 0 2px rgba(220, 185, 62, 0.5), /* Glow effect color 2 with reduced opacity */
+      0 0 3px rgba(220, 185, 62, 0.3), /* Glow effect color 3 with reduced opacity */
+      0 0 4px rgba(143, 198, 63, 0.3), /* Glow effect color 4 with reduced opacity */
+      0 0 6px rgba(143, 198, 63, 0.2), /* Glow effect color 5 with reduced opacity */
+      0 0 8px rgba(143, 198, 63, 0.1)  /* Glow effect color 6 with reduced opacity */
     `,
-    animation: 'pulse 2s infinite' // Apply animation
+    animation: 'pulse 10s infinite' // Apply animation
   };
 
   return (
@@ -28,8 +28,8 @@ const Hero = () => {
       </div>
       <div className="relative z-10 flex flex-col items-center text-center p-6 bg-gradient-to-t from-gray-800 via-transparent to-transparent rounded-lg">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4" style={glowTextStyle}>
-          <span className="text-white">Prioritize </span>
-          <span className="text-[#8FC63F]">Your <br />Mental Health </span>
+          <span className="text-white">Prioritize Your <br /></span>
+          <span className="text-[#8FC63F]">Mental Health </span>
           <span className="text-white">with </span>
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#DCB93E] to-[#8FC63F]">EaseBrain</span>
         </h1>
