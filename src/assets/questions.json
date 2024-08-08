@@ -1,28 +1,36 @@
 {
   "questions": [
     {
+      "question": "What is your gender identity?",
+      "options": ["Male", "Female", "Non-binary", "Prefer not to say", "Other"]
+    },
+    {
+      "question": "What is your age group?",
+      "options": ["Under 18", "18-24", "25-34", "35-44", "45-54", "55-64", "65 and over"]
+    },
+    {
       "question": "How often do you feel overwhelmed?",
-      "options": ["Rarely", "Sometimes", "Often", "Frequently", "Constantly"]
+      "options": ["Never", "Rarely", "Sometimes", "Often", "All the time"]
     },
     {
       "question": "Do you find it difficult to concentrate?",
-      "options": ["Not at all", "Occasionally", "Sometimes", "Often", "Always"]
+      "options": ["Never", "Occasionally", "Somewhat", "Most of the time", "Always"]
     },
     {
       "question": "How often do you experience feelings of sadness?",
-      "options": ["Rarely", "Occasionally", "Sometimes", "Frequently", "Daily"]
+      "options": ["Never", "Rarely", "Sometimes", "Frequently", "Every day"]
     },
     {
       "question": "Do you often experience racing thoughts?",
-      "options": ["Rarely", "Occasionally", "Sometimes", "Frequently", "Almost always"]
+      "options": ["Not at all", "A little", "Moderately", "Quite a bit", "Extremely"]
     },
     {
       "question": "How frequently do you feel anxious?",
-      "options": ["Rarely", "Occasionally", "Sometimes", "Frequently", "Constantly"]
+      "options": ["Never", "Rarely", "Sometimes", "Often", "Constantly"]
     },
     {
       "question": "Are you able to get restful sleep?",
-      "options": ["Always", "Most of the time", "Sometimes", "Rarely", "Never"]
+      "options": ["Always", "Most nights", "Sometimes", "Rarely", "Never"]
     },
     {
       "question": "Do you often feel fatigued?",
@@ -30,7 +38,7 @@
     },
     {
       "question": "How often do you feel irritable or angry?",
-      "options": ["Rarely", "Occasionally", "Sometimes", "Frequently", "Constantly"]
+      "options": ["Never", "Rarely", "Sometimes", "Often", "Constantly"]
     },
     {
       "question": "Do you experience changes in appetite?",
@@ -38,7 +46,7 @@
     },
     {
       "question": "How often do you engage in activities you enjoy?",
-      "options": ["Daily", "Several times a week", "Weekly", "Occasionally", "Rarely"]
+      "options": ["Daily", "Several times a week", "Once a week", "Occasionally", "Never"]
     },
     {
       "question": "Do you feel disconnected from others?",
@@ -46,7 +54,7 @@
     },
     {
       "question": "How often do you feel hopeless about the future?",
-      "options": ["Rarely", "Occasionally", "Sometimes", "Frequently", "Constantly"]
+      "options": ["Never", "Occasionally", "Sometimes", "Frequently", "Constantly"]
     },
     {
       "question": "Are you satisfied with your work-life balance?",
@@ -54,11 +62,11 @@
     },
     {
       "question": "How often do you experience physical symptoms related to stress (e.g., headaches, muscle tension)?",
-      "options": ["Rarely", "Occasionally", "Sometimes", "Frequently", "Constantly"]
+      "options": ["Never", "Occasionally", "Sometimes", "Frequently", "Constantly"]
     },
     {
       "question": "Do you have difficulty making decisions?",
-      "options": ["Rarely", "Occasionally", "Sometimes", "Frequently", "Almost always"]
+      "options": ["Never", "Occasionally", "Sometimes", "Frequently", "Almost always"]
     }
   ]
 }

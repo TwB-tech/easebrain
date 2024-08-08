@@ -3,11 +3,12 @@ import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 
+// Validation schema
 const schema = z.object({
   answer: z.string().nonempty(),
 });
 
-const Questionnaire = ({ questions, onComplete }) => {
+const Questionnaire = ({ questions = [], onComplete }) => {
   const { handleSubmit } = useForm({
     resolver: zodResolver(schema),
   });
@@ -15,20 +16,25 @@ const Questionnaire = ({ questions, onComplete }) => {
   const [answers, setAnswers] = useState([]);
 
   const onSubmit = (data) => {
-    setAnswers([...answers, data.answer]);
+    setAnswers((prevAnswers) => [...prevAnswers, data.answer]);
     if (currentQuestionIndex < questions.length - 1) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
+      setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     } else {
-      onComplete(); // Trigger completion handler from props
+      onComplete();
     }
   };
+
+  const currentQuestion = questions[currentQuestionIndex];
+  if (!currentQuestion) {
+    return <div>No questions available</div>;
+  }
 
   return (
     <div className="bg-white rounded-lg shadow-md p-4 w-full">
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
         <div>
-          <h2 className="text-xl font-bold mb-4">{questions[currentQuestionIndex].question}</h2>
-          {questions[currentQuestionIndex].options.map((option, index) => (
+          <h2 className="text-xl font-bold mb-4">{currentQuestion.question}</h2>
+          {currentQuestion.options.map((option, index) => (
             <button
               key={index}
               type="button"

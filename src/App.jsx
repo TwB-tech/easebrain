@@ -4,8 +4,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { UserProvider } from './context/UserContext';
 import LandingPage from './pages/LandingPage';
-import RegisterPage from './pages/RegisterPage';
-import LoginPage from './pages/LoginPage';
 import Homepage from './pages/Homepage';
 import EditProfile from './pages/EditProfile';
 import CallsPage from './pages/CallsPage';
@@ -24,8 +22,6 @@ const App = () => {
         <Router>
           <Routes>
             <Route path="/" element={<LandingPage />} />
-            <Route path="/register" element={<RegisterPage />} />
-            <Route path="/login" element={<LoginPage />} />
             <Route path="/homepage" element={<Homepage />} />
             <Route path="/edit-profile" element={<EditProfile />} />
             <Route path="/become-therapist" element={<BecomeTherapistForm />} />
